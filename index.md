@@ -117,8 +117,3 @@ end
 <dt>Color</dt>
 <dd>Green</dd>
 </dl>
-
-
-```
-2017 Matthew Strenk
-```
