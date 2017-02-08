@@ -3,6 +3,6 @@ layout: default
 ---
 # [](#header-1)Welcome!
 
-[Projects](Projects)
+[# [](#header-2)Projects](Projects)
 
 
