@@ -115,11 +115,12 @@ h2{
 }
 
 #credit{
-	float:left;
-	margin:0;
+	text-align:center;
+	margin:0 0 0 25px;
 	padding-top:10px;
-	padding-left:44%;
-	color:rgba(0,0,0,.5);
+	/* padding-left:44%; */
+	color:rgba(0,0,0,.5);	
+	display:inline-block;
 }
 
 .picture{
