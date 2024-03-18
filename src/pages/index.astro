@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Matt Strenk">
+	<div class="hero h-1/3" style="background-image: url(../../assets/header.jpg);">
+		<div class="hero-overlay bg-opacity-60"></div>
+		<div class="flex flex-col w-screen p-5">
+			<div class="navbar bg-transparent font-bold">
+				<div class="flex-1"></div>
+				<div class="flex-none">
+					<ul class="menu menu-horizontal px-1">
+						<li><a>Home</a></li>
+						<li><a>About</a></li>
+						<li><a>Skills</a></li>
+						<li><a>Projects</a></li>
+						<li><a>Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="flex flex-row justify-around">
+				<div class="max-w-md">
+					<h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+					<code is:raw class="mb-5">const person = { name: Matt Strenk, occupation: Software Engineer II }</code>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<h1>About Me</h1>
+
+	<h1>Skills</h1>
+
+	<h1>Projects</h1>
+
+	<h1>Contact</h1>
+
+	<style>
+		.header-image {
+			background-image: url("https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg");
+			background-size: cover;
+			background-position: center;
+			height: 300px; /* Adjust the height as needed */
+		}
+	</style>
+</Layout>
